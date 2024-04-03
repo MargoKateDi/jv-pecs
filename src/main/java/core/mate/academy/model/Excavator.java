@@ -8,12 +8,10 @@ public class Excavator extends Machine {
     }
 
     public double getDiggingDepth() {
-
         return diggingDepth;
     }
 
     public void setDiggingDepth(double diggingDepth) {
-
         this.diggingDepth = diggingDepth;
     }
 
@@ -27,7 +25,6 @@ public class Excavator extends Machine {
 
     @Override
     public void doWork() {
-
         System.out.println("Excavator started to work");
     }
 }
